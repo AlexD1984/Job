@@ -1,7 +1,7 @@
 {
-  "name": "Interview",
-  "short_name": "Interview",
-  "description": "Interview-Webseite als Progressive Web App.",
+  "name": "Interview-Training – Kleeschulte Vertriebsinnendienst",
+  "short_name": "Interview-Training",
+  "description": "Deine Trainingsnotizen als installierbare Web-App.",
   "start_url": "/Interview-/?source=pwa",
   "scope": "/Interview-/",
   "display": "standalone",

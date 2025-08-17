@@ -1,26 +1,185 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Offline</title>
-  <meta name="theme-color" content="#0f172a" />
-  <style>
-    html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; color: #0f172a; background: #f8fafc; }
-    .wrap { display: grid; place-items: center; height: 100%; text-align: center; padding: 2rem; }
-    .card { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,.08); max-width: 520px; }
-    h1 { margin: 0 0 0.5rem; font-size: 1.5rem; }
-    p { margin: 0.25rem 0; line-height: 1.5; }
-    .hint { margin-top: 1rem; font-size: .9rem; color: #334155; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview-Training – Kleeschulte Vertriebsinnendienst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>.hidden{display:none}</style>
+
+  <link rel="manifest" href="/Interview-/manifest.webmanifest">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="apple-touch-icon" href="/Interview-/icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
 </head>
-<body>
-  <div class="wrap">
-    <div class="card">
-      <h1>Du bist offline</h1>
-      <p>Diese Seite ist nicht verfügbar. Verbinde dich mit dem Internet und versuche es erneut.</p>
-      <p class="hint">Tipp: Inhalte, die du einmal besucht hast, werden automatisch zwischengespeichert.</p>
+<body class="bg-gray-100 min-h-screen p-6">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-center mb-2">Interview-Training – Kleeschulte Vertriebsinnendienst</h1>
+    <p class="text-center text-gray-600 mb-6">Fokus: <b>Auftragserfassung</b> • <b>Steuerung & Optimierung</b> • <b>Unterstützung Online-Vertrieb</b></p>
+
+    <div class="space-y-4">
+
+      <!-- 1 Outfit -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">1) Outfit & Auftreten</button>
+        <div class="p-4 hidden">
+          <ul class="list-disc ml-6">
+            <li>Hemd hellblau, dunkelblaue Chino, schwarze Business-Schuhe, passender Gürtel.</li>
+            <li>Händedruck: kurz & fest; Blickkontakt; freundliches Lächeln.</li>
+            <li>Sitzhaltung: aufrecht, Schultern locker; Hände offen auf dem Tisch.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 2 Lebenslauf -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">2) Vorstellung Lebenslauf (roter Faden)</button>
+        <div class="p-4 hidden space-y-2">
+          <p><b>Roter Faden:</b> Ausbildung → Jysk (Kunde & Prozesse) → Liebelt (ERP/Prozesse aufgebaut) → Ziel: Handelsumfeld (Kleeschulte).</p>
+          <ul class="list-disc ml-6">
+            <li><b>Studium-Abbruch:</b> bewusste Entscheidung pro Praxis & klare Verantwortung.</li>
+            <li><b>Jysk:</b> Kundenorientierung, Artikel-/Bestandslogik, Verlässlichkeit.</li>
+            <li><b>Liebelt:</b> ERP Vario 8.5 selbst erarbeitet; Buchungsarten; Stammdaten; Materialfluss; Streckengeschäft; Prozesse gestaltet.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3 Typische Fragen & Antworten -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">3) Typische Fragen & mögliche Antworten</button>
+        <div class="p-4 hidden space-y-3">
+          <div>
+            <p class="font-semibold">Stärken / Schwächen</p>
+            <ul class="list-disc ml-6">
+              <li><b>Stärken:</b> Prozessgenauigkeit, Verantwortungsbewusstsein, schnelle Auffassungsgabe (ERP selbst gelernt), ruhiges Auftreten bei Stress.</li>
+              <li><b>Schwächen:</b> detailverliebt – nutze ich positiv, um Abläufe sauber zu dokumentieren und Fehler zu vermeiden.</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold">Warum Kleeschulte?</p>
+            <p>„Regional verwurzelt, nachhaltig – das passt zu meinen Werten. Ich möchte in einem Unternehmen arbeiten, in dem <b>Ware & Handelsprozesse</b> im Mittelpunkt stehen. Genau das verbindet Kleeschulte mit Tradition und Zukunftsorientierung.“</p>
+          </div>
+          <div>
+            <p class="font-semibold">Warum Wechsel von Liebelt?</p>
+            <p>„Liebelt ist ein Dienstleistungsunternehmen. Handelstypische Prozesse stehen dort nicht im Fokus. Ich habe sie mir selbst erarbeitet (ERP-Buchungen, Stammdaten, Materialfluss). Bei Kleeschulte kann ich das <b>gezielt im Handelskontext</b> einbringen.“</p>
+          </div>
+          <div>
+            <p class="font-semibold">Warum Studium abgebrochen?</p>
+            <p>„Praxisbezug ist mir wichtiger. Ich habe früh Verantwortung übernommen, Prozesse aufgebaut und sehe meine Stärke im <b>operativen Handelsumfeld</b>.“</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Einstiegs-/Standard-/Fiese Fragen -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">4) Einstiegs-, Standard- & Stressfragen (mit Antwortideen)</button>
+        <div class="p-4 hidden grid md:grid-cols-3 gap-4">
+          <div>
+            <p class="font-semibold mb-1">Einstiegsfragen</p>
+            <ul class="list-disc ml-6 text-sm">
+              <li><b>„Erzählen Sie etwas über sich.“</b><br><i>30–60 Sek. Zusammenfassung:</i> Handel & Prozesse als roter Faden, ERP-Praxis, Ziel Kleeschulte.</li>
+              <li><b>„Wie auf die Stelle aufmerksam geworden?“</b><br>Passung zu Handelsprozessen & Regionalität/Nachhaltigkeit betonen.</li>
+              <li><b>„Warum Vertriebsinnendienst?“</b><br>„Weil ich die <b>Umsetzung beim Kunden</b> sichern will: vom Auftrag bis zur Lieferung.“</li>
+              <li><b>„Wo sehen Sie sich in 5 Jahren?“</b><br>„Fachlich tiefer in Prozessen/KPIs; ggf. Projektverantwortung – <b>keine Führung nötig</b>.“</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold mb-1">Standardfragen</p>
+            <ul class="list-disc ml-6 text-sm">
+              <li><b>Erfolge:</b> Prozesse bei Liebelt aufgebaut; Fehlerquoten reduziert; saubere Stammdatenlogik etabliert.</li>
+              <li><b>Stress:</b> Priorisieren (Kunde/Termin/Verfügbarkeit), ruhig bleiben, klar kommunizieren, nachhalten.</li>
+              <li><b>Organisation:</b> Ticket-/To-do-Liste, SLA-Denken, Übergaben dokumentieren.</li>
+              <li><b>Teamarbeit:</b> Schnittstelle Lager/Logistik/Einkauf – gleiche Ziele, klare Infos.</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold mb-1">Fiese Fragen</p>
+            <ul class="list-disc ml-6 text-sm">
+              <li><b>„Abbruch Studium = Scheitern?“</b><br>„Nein, bewusste Neuorientierung in Richtung Praxis & Verantwortung.“</li>
+              <li><b>„Warum schon nach ~1 Jahr wechseln?“</b><br>„Schwerpunkt Dienstleistung – ich will <b>Ware & Handelsprozesse</b> im Kern. Hier kann ich mehr Wirkung entfalten.“</li>
+              <li><b>„Kunde schreit – was tun?“</b><br>Ruhe, aktiv zuhören, Ziel klären, Optionen anbieten, Zusage + Rückmeldung halten.</li>
+              <li><b>„Haben Sie genug Vertriebserfahrung?“</b><br>„Ich bringe die <b>operative Umsetzung</b> (ERP, Prozesse, Logistikkoordination) mit – der Teil, der Kundenzufriedenheit sichert.“</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5 Bezug zur Stellenanzeige: drei Punkte + Transfer -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">5) Bezug zur Stellenanzeige – 3 Punkte & mein Transfer</button>
+        <div class="p-4 hidden space-y-4 text-sm">
+          <div class="border rounded p-3">
+            <p class="font-semibold">1. Auftragserfassung</p>
+            <ul class="list-disc ml-6">
+              <li><b>Anzeige:</b> Aufträge annehmen, Daten sauber erfassen, Verfügbarkeiten prüfen, Dokumente erzeugen (Lieferschein/Rechnung).</li>
+              <li><b>Transfer:</b> Bei Liebelt richtige Buchungsart erkennen (Werksauftrag vs. Lieferschein/Rechnung), fehlende Infos über Stammdatenhistorie klären, saubere ERP-Dokumente erstellen.</li>
+              <li><b>Beispiel-Satz:</b> „Ich erkenne anhand der Unterlagen schnell die <b>korrekte Buchungslogik</b> und sorge dafür, dass Auftrag, Lieferschein und Rechnung sauber zusammenpassen.“</li>
+            </ul>
+          </div>
+          <div class="border rounded p-3">
+            <p class="font-semibold">2. Steuerung & Optimierung</p>
+            <ul class="list-disc ml-6">
+              <li><b>Anzeige:</b> Abläufe abstimmen, Engpässe erkennen, mit Kennzahlen verbessern.</li>
+              <li><b>Transfer:</b> Prozesse selbst aufgebaut, Fehlerquellen identifiziert (z. B. fehlende Artikelnummern), Workarounds entwickelt, Stammdatenqualität gesichert.</li>
+              <li><b>KPI-Denke:</b> Durchlaufzeit Auftrag→Lieferung, Bestandsgenauigkeit, Lieferpünktlichkeit, Fehlerquote Belege.</li>
+              <li><b>Beispiel-Satz:</b> „Ich steuere Abläufe datenbasiert und optimiere, wo es klemmt – <b>vom ERP bis zur Lieferung</b>.\"</li>
+            </ul>
+          </div>
+          <div class="border rounded p-3">
+            <p class="font-semibold">3. Unterstützung Online-Vertrieb</p>
+            <ul class="list-disc ml-6">
+              <li><b>Anzeige:</b> Shop-Bestellungen prüfen, ins ERP übernehmen, Versandstatus & Kundenkommunikation.</li>
+              <li><b>Transfer:</b> Datenvollständigkeit prüfen, Adress-/Artikelprüfung, Versandfreigabe, Nachhalten – genau die Sorgfalt, die Onlineshop-Aufträge brauchen.</li>
+              <li><b>Beispiel-Satz:</b> „Ich sichere die Qualität der Daten, damit <b>Online-Aufträge</b> ohne Umwege in Kommissionierung & Versand laufen.“</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 Meine Kompetenzen aus Liebelt -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">6) Meine Kompetenzen (aus Liebelt) – kurz & knackig</button>
+        <div class="p-4 hidden text-sm">
+          <ul class="list-disc ml-6">
+            <li><b>ERP Vario 8.5:</b> Buchungsarten, Lieferschein/Rechnung, Stammdatenlogik.</li>
+            <li><b>Prozessentwicklung:</b> Standards definiert, Workarounds erstellt, Fehlerquoten gesenkt.</li>
+            <li><b>Material-/Lieferantenkenntnis:</b> richtiger Lieferant, Streckengeschäft koordinieren.</li>
+            <li><b>Schnittstellen:</b> Lager/Niederlassungen/Logistik/Einkauf – saubere Übergaben.</li>
+            <li><b>Qualitätsfokus:</b> Datenvollständigkeit, Nachhalten, klare Kommunikation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 7 Schlussrunde -->
+      <section class="bg-white rounded-lg shadow">
+        <button onclick="toggle(this)" class="w-full text-left p-4 bg-blue-100 rounded-t-lg font-semibold">7) Schlussrunde – meine Fragen an Kleeschulte</button>
+        <div class="p-4 hidden text-sm">
+          <ul class="list-disc ml-6">
+            <li>Wie sieht die <b>Einarbeitung</b> und die Zusammenarbeit mit dem <b>Betriebsbüro</b> konkret aus?</li>
+            <li>Welches <b>ERP/WaWi</b> nutzen Sie, und welche Rolle spielt der Vertriebsinnendienst darin (Lieferschein/Rechnung)?</li>
+            <li>Welche <b>KPIs</b> sind für Sie im Alltag am wichtigsten (z. B. Lieferpünktlichkeit, Durchlaufzeit, Fehlerquote)?</li>
+            <li>Wie ist die <b>Teamstruktur</b> im Vertrieb & Logistik – wer sind meine direkten Schnittstellen?</li>
+          </ul>
+        </div>
+      </section>
+
     </div>
   </div>
+
+  <script>
+    function toggle(btn){ btn.nextElementSibling.classList.toggle('hidden'); }
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/Interview-/sw.js', { scope: '/Interview-/' })
+          .catch(console.error);
+      });
+    }
+  </script>
+
 </body>
 </html>
